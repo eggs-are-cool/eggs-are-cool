@@ -58,3 +58,24 @@ September 20, 2026 - Science Olympiad was great yesterday, I had 2 homies over t
 My computer was dead for most of the day, so I didn't get to record one of my projects. I instead replaced it with like 40 minutes of learning general C++, not the Arduino C++. 
 Also spent some time learning physics today, and I'm hoping I can do more math after I finish what I gotta do. Today was very nice, thank God.
 
+September 30, 2026 - Got addicted to what I was studying. Might have to hold myself back a little, since I literally studied so much that I didn't put in a new entry.
+I'm working on a new afterschool schedule to maximize efficiency for learning the most. Here is my broad schedule for how much study time I will do a week: "looks code-y but I don't think it works"
+  #include <real.life>
+  #include <stdio.h>
+  byte actualstudy; //The actual studytime I'm going to do a week
+  bool importantneeds; //Are there important things I need to do?
+  byte workofneeds; //How much time will the importantneeds take up?
+  const byte subjects = 6; //The subjects I need to study over a week
+  float studytime; //in hours, how much time I got
+  int main() {
+  studytime = 16.5;//hours discluding extra study time, lowest amount of time I have a week
+  if(importantneeds == TRUE) {
+  studytime = studytime / subjects;
+  actualstudy = studytime - importantneeds;
+  }
+  else {
+  actualstudy = studytime / subjects;
+  }
+  return 0;
+  }
+  
